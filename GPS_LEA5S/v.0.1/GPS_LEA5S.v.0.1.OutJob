@@ -1,37 +1,54 @@
 [OutputJobFile]
 Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
 
 [OutputGroup1]
 Name=GPS_LEA5S.v.0.1.OutJob
 Description=
 TargetOutputMedium=PDf-sch
-IncludedInRelease=0
-TargetPrinter=Wyœlij do programu OneNote 2010
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+VariantName=[No Variations]
+VariantScope=0
+CurrentConfigurationName=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=PDf-sch
 OutputMedium1_Type=Publish
 OutputMedium2=Generate Files
 OutputMedium2_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=GPS_LEA5S.v.0.1.Schematic
+OutputCategory1=Documentation
 OutputDocumentPath1=[Project Physical Documents]
 OutputVariantName1=[No Variations]
 OutputEnabled1=1
 OutputEnabled1_OutputMedium1=1
 OutputEnabled1_OutputMedium2=0
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.97|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.97|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
 OutputType2=PCB Print
 OutputName2=GPS_LEA5S.v.0.1.PCB_FP
+OutputCategory2=Documentation
 OutputDocumentPath2=
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.59|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.59|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration2_Name2=OutputConfigurationParameter2
@@ -78,15 +95,17 @@ Configuration2_Name22=OutputConfigurationParameter22
 Configuration2_Item22=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomSolder|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer
 Configuration2_Name23=OutputConfigurationParameter23
 Configuration2_Item23=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer
+PcbPrintPreferences2=
 OutputType3=PCB Print
 OutputName3=GPS_LEA5S.v.0.1.PCB_S1
+OutputCategory3=Documentation
 OutputDocumentPath3=
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration3_Name2=OutputConfigurationParameter2
@@ -133,19 +152,21 @@ Configuration3_Name22=OutputConfigurationParameter22
 Configuration3_Item22=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomSolder|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer
 Configuration3_Name23=OutputConfigurationParameter23
 Configuration3_Item23=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer
+PcbPrintPreferences3=
 OutputType4=BOM_PartType
 OutputName4=GPS_LEA5S.v.0.1_BOM
+OutputCategory4=Report
 OutputDocumentPath4=
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-Configuration4_Name1=Filter
-Configuration4_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
 Configuration4_Name2=General
-Configuration4_Item2=OpenExported=False|AddToProject=False|ForceFit=True|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=6|FormWidth=1214|FormHeight=633|SupplierProdQty=1|SupplierAutoQty=False
+Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=E:\Design\altiumlib\Templates\BOMVmlach.xls|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1214|FormHeight=633|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration4_Name3=GroupOrder
 Configuration4_Item3=Comment=True|Footprint=True
 Configuration4_Name4=OutputConfigurationParameter1
@@ -156,9 +177,21 @@ Configuration4_Name6=VisibleOrder
 Configuration4_Item6=Designator=74|Value=119|Quantity=62|Descript=293|Reference5=100|Supplier5=100
 
 [PublishSettings]
-PublishMethod1=0
+OutputFilePath1=E:\Design\gps_lea5s\GPS_LEA5S\v.0.1\.\GPS_LEA5S.v.0.1-sch.PDF
+ReleaseManaged1=0
+OutputBasePath1=.\
+OutputPathMedia1=[Media Type]
+OutputPathMediaValue1=
+OutputPathOutputer1=[Output Type]
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=
+OutputFileName1=GPS_LEA5S.v.0.1.PDF
+OutputFileNameMulti1=
+UseOutputNameForMulti1=0
+OutputFileNameSpecial1==ProjectName
 OpenOutput1=1
 PromptOverwrite1=1
+PublishMethod1=0
 ZoomLevel1=50
 FitSCHPrintSizeToDoc1=0
 FitPCBPrintSizeToDoc1=0
@@ -166,20 +199,36 @@ GenerateNetsInfo1=1
 MarkPins1=1
 MarkNetLabels1=1
 MarkPortsId1=1
-OutputFilePath1=Y:\Archiw\Design\DACPOL\LiczEner\sch\GPS_LEA5S\v.0.1\PDF\GPS_LEA5S.v.0.1-sch.PDF
+GenerateTOC1=1
+ShowComponentParameters1=1
+GlobalBookmarks1=0
+PDFACompliance1=Disabled
+PDFVersion1=Default
+OutputFilePath2=E:\Design\gps_lea5s\GPS_LEA5S\v.0.1\Project Outputs for GPS_LEA5S.v.0.1\
+ReleaseManaged2=0
+OutputBasePath2=Project Outputs for GPS_LEA5S.v.0.1
+OutputPathMedia2=
+OutputPathMediaValue2=
+OutputPathOutputer2=
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=
+OutputFileNameMulti2=
+UseOutputNameForMulti2=1
+OutputFileNameSpecial2=
+OpenOutput2=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=
+RelativeOutputPath1=E:\Design\gps_lea5s\GPS_LEA5S\v.0.1\.\GPS_LEA5S.v.0.1-sch.PDF
+OpenOutputs1=1
+RelativeOutputPath2=E:\Design\gps_lea5s\GPS_LEA5S\v.0.1\Project Outputs for GPS_LEA5S.v.0.1\
 OpenOutputs2=0
 AddToProject2=1
 TimestampFolder2=0
-SeparateFolderForEachOutput2=0
 UseOutputName2=0
-
-[CAMtasticOutputs]
-OpenODBOutput=False
-OpenGerberOutput=False
-OpenNCDrillOutput=False
-OpenIPCOutput=False
-EnableReload=False
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
 
