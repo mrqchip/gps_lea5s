@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=..\altiumlib\Schematic.LibPkg
+[Project2]
+ProjectPath=GPS_LEA5S\v.0.1\GPS_LEA5S.v.0.1.PrjPCB
