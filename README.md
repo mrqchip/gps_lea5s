@@ -1,3 +1,4 @@
+__24-08-27 Projekt zakończony, archiwalny, przeniesiony do p:\E\Design\starocie\AMProject\\__
 # gps_lea5s
 Odbiornik GPS z modułem LEA-5S.
 
